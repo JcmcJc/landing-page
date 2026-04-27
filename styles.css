@@ -16,21 +16,10 @@ ul {
   list-style-type: none;
 }
 
-/* Hero Section */
-.hero {
-  background-color: #1f2937;
+/* Header */
+.header {
   display: flex;
-  justify-content: space-around;
-  padding: 16px;
-}
-.hero h1 {
-  font-size: 24px;
-  color: #f9faf8;
-  margin: 0;
-}
-.hero ul {
-  font-size: 18px;
-  color: #e5e7eb;
+  justify-content: space-between;
 }
 .header-links {
   display: flex;
@@ -39,6 +28,59 @@ ul {
   gap: 16px;
   align-items: center;
 }
+
+.h-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+}
+/* Hero Section */
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 16px 128px 64px 128px;
+  flex-direction: column;
+  gap: 128px;
+}
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+.hero-content {
+  display: flex;
+  flex: 1;
+  gap: 32px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.image {
+  display: flex;
+  flex: 1;
+  flex-shrink: 0;
+  height: 300px;
+  /* width: 300px; */
+  background-color: grey;
+}
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  color: #e5e7eb;
+}
+
 /* Footer section */
 .footer {
   background-color: #1f2937;
