@@ -9,3 +9,4 @@ Using HTML to design the content of the page.
 Using CSS elements to style the page.
 Using Flex to align items.
 
+Here is where you can view the current version of the landing-page website: https://jcmcjc.github.io/landing-page/index.html
