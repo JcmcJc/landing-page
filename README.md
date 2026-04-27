@@ -1,2 +1,11 @@
 # landing-page
-TOP's Second Project. The Landing Page.
+TOP's second project.
+
+This project will demonstrate skills that I have learned in HTML and CSS. The project is part of The Odin's Project curriculum and is the second project out of five.
+
+The skills that will be demonstrated after this project are:
+
+Using HTML to design the content of the page.
+Using CSS elements to style the page.
+Using Flex to align items.
+
