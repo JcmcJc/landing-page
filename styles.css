@@ -81,10 +81,15 @@ button {
   background-color: grey;
 }
 /* Random information */
+.container {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
 .random-information {
   display: flex;
   justify-content: center;
-  padding: 64px;
   gap: 16px;
 }
 .info {
@@ -95,7 +100,8 @@ button {
 }
 .info-text,
 .info-header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .info-header {
   font-size: 36px;
@@ -106,7 +112,34 @@ button {
   width: 100px;
   height: 100px;
 }
+/* Testimony */
 
+.testimony {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding: 128px 32px;
+}
+.testimony-text {
+  width: 50%;
+  margin: auto;
+}
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.speaker {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
 /* Footer section */
 .footer {
   background-color: #1f2937;
